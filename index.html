@@ -1,0 +1,176 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Reenu 🐼❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #fff7f2, #ffeef5, #f4efff);
+    color: #352b35;
+    overflow-x: hidden;
+}
+
+/* Background decoration */
+body::before {
+    content: "🐼 ♥ ✨ 🐼 🌸 ♥ 🐼 ✨";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.07;
+    font-size: 42px;
+    line-height: 2.1;
+    word-spacing: 25px;
+    transform: rotate(-12deg);
+    z-index: 0;
+}
+
+/* Sections */
+section {
+    min-height: 100vh;
+    padding: 70px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Card */
+.card {
+    width: min(900px, 100%);
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 20px 60px rgba(85, 50, 80, 0.15);
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.panda {
+    font-size: 100px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-10px) rotate(3deg);
+    }
+}
+
+h1 {
+    font-size: clamp(42px, 10vw, 78px);
+    margin: 8px 0;
+
+    background: linear-gradient(90deg, #3b2934, #c85b83);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-size: clamp(28px, 6vw, 48px);
+    margin: 8px 0 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.highlight {
+    font-size: 24px;
+    font-weight: 800;
+    color: #b94f79;
+}
+
+/* Buttons */
+button {
+    border: 0;
+    border-radius: 999px;
+    padding: 14px 22px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    background: #352b35;
+    color: white;
+    box-shadow: 0 8px 20px rgba(53, 43, 53, 0.2);
+    transition: 0.25s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+/* Music button */
+.music {
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    z-index: 10;
+    background: white;
+    color: #352b35;
+}
+
+/* Envelope */
+.envelope {
+    margin: 35px auto;
+    width: min(500px, 90vw);
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.env-body {
+    position: absolute;
+    inset: 30px 0 0;
+    background: #f7d8e4;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px #b68a9b55;
+}
+
+.flap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    margin: auto;
+
+    width: 0;
+    height: 0;
+
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 145px solid #efb7cb;
+
+    transform-origin: top;
+    transition: 0.8s;
+    z-index: 3;
+}
+
+.envelope.open .flap {
+    tra
+```
